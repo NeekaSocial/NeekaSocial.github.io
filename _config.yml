@@ -1,3 +1,3 @@
-remote_theme: pages-themes/cayman@v0.2.0
-title: Neeka Social
+theme: jekyll-theme-minimal
+title: Neeka
 description: Neeka research
