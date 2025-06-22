@@ -1,5 +1,5 @@
 
-<img src="https://github.com/NeekaSocial/NeekaSocial.github.io/blob/main/neeka_logo2.png" width="30%">
+<img src="https://raw.githubusercontent.com/NeekaSocial/NeekaSocial.github.io/refs/heads/main/neeka_logo2.png" width="30%">
 
 <!-- ![Neeka Logo](/neeka_logo2.png) !-->
 
