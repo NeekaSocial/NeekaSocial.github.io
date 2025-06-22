@@ -1,7 +1,7 @@
 
 <img src="https://github.com/NeekaSocial/NeekaSocial.github.io/blob/main/neeka_logo2.png" width="30%">
 
-<!-- ![Neeka Logo](/neeka_logo2.png){ width=5% } !-->
+<!-- ![Neeka Logo](/neeka_logo2.png) !-->
 
 Welcome to Neeka Social! At Neeka, our goal is to create healthier online communities and improve discourse over technological mediums. We believe that in the same way engagement-based algorithms create echo-chambers and divisive content, algorithms designed to promote social-health could help eliminate those things! We think the Neeka Consensus algorithm may be one such example. Please support us as we research solutions to the social media dilemma.
 
