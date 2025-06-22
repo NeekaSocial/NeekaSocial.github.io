@@ -78,7 +78,7 @@ These are the posts that are **most-promoted** by the Neeka algorithm over simpl
 2. 'Mass Shooting in Virginia: Witnesses Say Gunman Opened Fire on Members of Congress'
 3. 'Justin Trudeau brownface photo surfaces ahead of Canada election'
 4. 'Man charged with capital murder in shooting of 7-year-old Jazmine Barnes'
-5. 'Women burn burqas and men shave beards to celebrate liberation from Isis in Syria | The Independent'
+5. 'Women burn burqas and men shave beards to celebrate liberation from Isis in Syria \| The Independent'
 6. 'Woman who partied while children died in hot car to serve 40 years in prison'
 7. 'Father of Guatemalan girl who died in US custody has 'no complaints' about her treatment, consul says'
 8. 'Rio’s 200 year old national museum hit by massive fire'
@@ -128,7 +128,7 @@ These are the posts that are **most-demoted** by the Neeka algorithm over simple
 These are the titles of posts that are most-promoted and most-demoted by the Neeka algorithm over simple consensus out of a random sample of 500 posts involved in this test.
 
 These are the posts that are **most-promoted** by the Neeka algorithm over simple consensus:
-1. 'Chris Evans Invites Bullied Keaton Jones To ‘Avengers’ Premiere | Deadline'
+1. 'Chris Evans Invites Bullied Keaton Jones To ‘Avengers’ Premiere \| Deadline'
 2. 'Cervical cancer set to be eliminated from Australia in global first - Cervical cancer is set to become a rare disease in Australia within just two years and rendered so uncommon by 2028 it will be deemed eliminated as a public health problem for the first time anywhere in the world.'
 3. 'Trump claims no one told him not to hire Michael Flynn. Obama did.'
 4. 'Apple CEO becomes chairman of China university board'
@@ -147,7 +147,7 @@ These are the posts that are **most-demoted** by the Neeka algorithm over simple
 5. 'AOC takes down Ted Cruz over coronavirus comment: 'I’m surprised you’re asking about chromosomes given you don’t believe in evolution''
 6. 'Mitch McConnell is aiding and abetting the spread of coronavirus'
 7. 'Trump disbanded NSC pandemic unit that experts had praised'
-8. 'Scientists paint Australia fires as red alert on climate change | "We totally expected that as the climate warmed, fires in Australia would get worse. But the scale of this disaster is something I couldn’t have imagined, and it’s the same for a lot of people in Australia.”'
+8. 'Scientists paint Australia fires as red alert on climate change \| "We totally expected that as the climate warmed, fires in Australia would get worse. But the scale of this disaster is something I couldn’t have imagined, and it’s the same for a lot of people in Australia.”'
 9. 'Trump Should Be Tried for 'Crimes Against Humanity' Over Hydroxychloroquine Remarks, Says Ohio State Rep.'
 10. 'Yale psychiatrist urges Pelosi: Request 72-hour mental health hold on Trump after Iran attack'
 #### Sample C
@@ -173,7 +173,7 @@ These are the posts that are **most-demoted** by the Neeka algorithm over simple
 4. 'Trump is just 67 votes away from being an ex-President and it's freaking him out'
 5. 'Trump 'Crime Family...Belong in Prison,' Says 'The Art of the Deal' Ghostwriter'
 6. 'Trump attacked for spending '1 in every 5 days' at a golf club in 2019. President famously told voters in 2016 he would be too busy ‘working for you’ to play.'
-7. 'Melania Trump Thinks Greta Thunberg Had POTUS Attack Coming | Apparently speaking out against climate change means the 16 year-old should expect to be mocked by world leaders.'
+7. 'Melania Trump Thinks Greta Thunberg Had POTUS Attack Coming \| Apparently speaking out against climate change means the 16 year-old should expect to be mocked by world leaders.'
 8. 'Sanders slams Trump pardons as part of 'broken and racist criminal justice system''
 9. 'While Bernie Sanders has always stood up for African Americans, Joe Biden has repeatedly let us down'
 10. 'Senate Republicans block plans to make elections more secure from foreign interference'
