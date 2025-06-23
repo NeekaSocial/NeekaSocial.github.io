@@ -57,7 +57,7 @@ In this test, there are 18384 posts and 27647 users. HDBSCAN clustered 11491 of 
 Here are the results:
 
 ```
-	  simple_agreement: 29.86 %
+    simple_agreement: 29.86 %
     neeka_agreement: 52.67 %
 
     simple_apolar: 24.19 %
@@ -71,112 +71,59 @@ Here we see that the Neeka algorithm again significantly improved upon simple co
 ### The Pudding
 
 "The proof is in the pudding". Below you can judge for yourself how well the Neeka algorithm achieves its goals. To be honest, it seems to be a mixed bag, but you may notice some consistencies in the type of content Neeka buries.
+
 #### All Posts
 
-These are the titles of posts that are most-promoted and most-demoted by the Neeka algorithm over simple consensus out of all 18384 posts involved in this test.
+These are the titles of posts whose ranking changed most between the simple-consensus algorithm and the Neeka algorithm. On the left are posts that the simple consensus algorithm favors the most over Neeka. On the right are the posts that Neeka favors the most over simple-consensus.
 
-These are the posts that are **most-promoted** by the Neeka algorithm over simple consensus:
-1. 'Kansas judge rules sperm donor not on hook for child support - A Topeka man who answered a Craigslist ad to donate sperm so two women could have a baby together is not legally the child's father and isn't required to provide financial support, a Kansas judge has ruled.'
-2. 'Mass Shooting in Virginia: Witnesses Say Gunman Opened Fire on Members of Congress'
-3. 'Justin Trudeau brownface photo surfaces ahead of Canada election'
-4. 'Man charged with capital murder in shooting of 7-year-old Jazmine Barnes'
-5. 'Women burn burqas and men shave beards to celebrate liberation from Isis in Syria \| The Independent'
-6. 'Woman who partied while children died in hot car to serve 40 years in prison'
-7. 'Father of Guatemalan girl who died in US custody has 'no complaints' about her treatment, consul says'
-8. 'Rio’s 200 year old national museum hit by massive fire'
-9. 'Carter Page testifies he told Sessions about Russia trip'
-10. 'Russia's top secret $155m Su-57 stealth fighter crashes just days before it is due to enter service'
+This "All Posts" sample is our largest sample and is composed of all 18384 involved in the test. 
 
-These are the posts that are **most-demoted** by the Neeka algorithm over simple consensus:
-1. 'Experts say Trump firing of 3 officials including Sondland and Vindman is a ‘criminal’ offense'
-2. 'President Trump told his national security adviser in August that he wanted to continue freezing $391 million in security assistance to Ukraine until officials there helped with investigations into Democrats including the Bidens, according to unpublished manuscript by former adviser, John R. Bolton.'
-3. 'WHO official calls Trump comments on coronavirus response 'incoherent''
-4. 'The Guy Trump Cited as Proof There Wasn’t a Quid Pro Quo Just Said There Was a Quid Pro Quo'
-5. 'Europeans fear relationship with America will only get worse under a Trump second term. “Eight years in political terms is an era, not an error. And it would undermine the reality of American democracy,” said French analyst François Heisbourg.'
-6. ''I didn't do it': Trump shuns responsibility for cutting pandemic team before White House cuts mic of reporter asking 'nasty question''
-7. 'Sanders Applauds New Medicare for All Study: Will Save Americans $450 Billion and Prevent 68,000 Unnecessary Deaths Every Year'
-8. 'Trump's child separation policy "absolutely" violated international law says UN expert. "I'm deeply convinced that these are violations of international law."'
-9. 'Trump Named ‘Worst President for Our Environment in History' by Nine Green Groups'
-10. 'Poll: 57% of voters say US political system works only for insiders with money & power'
+| Simple Consensus | Neeka Consensus |
+| ---- | ---- |
+|1. 'Experts say Trump firing of 3 officials including Sondland and Vindman is a ‘criminal’ offense'</br>2. 'President Trump told his national security adviser in August that he wanted to continue freezing $391 million in security assistance to Ukraine until officials there helped with investigations into Democrats including the Bidens, according to unpublished manuscript by former adviser, John R. Bolton.'</br>3. 'WHO official calls Trump comments on coronavirus response 'incoherent''</br>4. 'The Guy Trump Cited as Proof There Wasn’t a Quid Pro Quo Just Said There Was a Quid Pro Quo'</br>5. 'Europeans fear relationship with America will only get worse under a Trump second term. “Eight years in political terms is an era, not an error. And it would undermine the reality of American democracy,” said French analyst François Heisbourg.'</br>6. ''I didn't do it': Trump shuns responsibility for cutting pandemic team before White House cuts mic of reporter asking 'nasty question''</br>7. 'Sanders Applauds New Medicare for All Study: Will Save Americans $450 Billion and Prevent 68,000 Unnecessary Deaths Every Year'</br>8. 'Trump's child separation policy "absolutely" violated international law says UN expert. "I'm deeply convinced that these are violations of international law."'</br>9. 'Trump Named ‘Worst President for Our Environment in History' by Nine Green Groups'</br>10. 'Poll: 57% of voters say US political system works only for insiders with money & power'|1. 'Kansas judge rules sperm donor not on hook for child support - A Topeka man who answered a Craigslist ad to donate sperm so two women could have a baby together is not legally the child's father and isn't required to provide financial support, a Kansas judge has ruled.'</br>2. 'Mass Shooting in Virginia: Witnesses Say Gunman Opened Fire on Members of Congress'</br>3. 'Justin Trudeau brownface photo surfaces ahead of Canada election'</br>4. 'Man charged with capital murder in shooting of 7-year-old Jazmine Barnes'</br>5. 'Women burn burqas and men shave beards to celebrate liberation from Isis in Syria \| The Independent'</br>6. 'Woman who partied while children died in hot car to serve 40 years in prison'</br>7. 'Father of Guatemalan girl who died in US custody has 'no complaints' about her treatment, consul says'</br>8. 'Rio’s 200 year old national museum hit by massive fire'</br>9. 'Carter Page testifies he told Sessions about Russia trip'</br>10. 'Russia's top secret $155m Su-57 stealth fighter crashes just days before it is due to enter service'|
+
 #### Sample A
 
-These are the titles of posts that are most-promoted and most-demoted by the Neeka algorithm over simple consensus out of a random sample of 500 posts involved in this test.
+These are the titles of posts whose ranking changed most between the simple-consensus algorithm and the Neeka algorithm. On the left are posts that the simple consensus algorithm favors the most over Neeka. On the right are the posts that Neeka favors the most over simple-consensus.
 
-These are the posts that are **most-promoted** by the Neeka algorithm over simple consensus:
-1. 'Justin Trudeau brownface photo surfaces ahead of Canada election'
-2. 'City hopes 'Baby Shark' song will drive homeless from park'
-3. 'Prince Andrew Says He Doesn't Regret His 'Very Useful' Relationship With Jeffrey Epstein'
-4. ''Star Wars': Mark Hamill To Get Star On Hollywood Walk Of Fame'
-5. 'EU will remain top investor against climate change, in defiance of Donald Trump's policies - 'We, Europeans, must lead the free world against climate sceptics''
-6. 'Jimmy Carter calls for return to publicly-financed elections'
-7. '#PresidentCuomo trends as governor’s star status rises over coronavirus response'
-8. 'Joel Osteen criticized for closing his Houston megachurch amid flooding'
-9. 'France becomes first country in Europe to ban all five pesticides killing bees - France will take a radical step towards protecting its dwindling bee population on Saturday by becoming the first country in Europe to ban all five pesticides researchers believe are killing off the insects.'
-10. 'McConnell won’t allow vote to bill to protect Mueller'
+This "Sample A" sample is a subset of the "All Posts" and is composed of 500 randomly selected posts. We show this smaller sample to give a better idea of how the algorithm might run on a smaller subset of data (such as the posts submitted in a single day).
 
-These are the posts that are **most-demoted** by the Neeka algorithm over simple consensus:
-1. 'A US citizen, who once begged for President Trump's help, has died after more than six years without a fair trial in an Egyptian prison.'
-2. 'Support for Trump’s Removal Grows'
-3. 'AOC takes down Ted Cruz over coronavirus comment: 'I’m surprised you’re asking about chromosomes given you don’t believe in evolution''
-4. 'Emotional Schiff Speech Goes Viral, Delighting the Left and Enraging the Right'
-5. 'Trump walks out of press conference after altercation with female reporters'
-6. 'Giuliani associate now willing to comply with Trump impeachment inquiry - lawyer'
-7. 'Senate Fails Its Duty To Nation'
-8. '65 percent of U.S. adults say Donald Trump was too slow to respond to COVID-19 outbreak: poll'
-9. 'Brett Kavanaugh Speech Protested With Rape Whistles, Handmaid Costumes, Christine Blasey Ford Video — Several tactics were employed during protests at his first public speech since his confirmation hearings.'
-10. 'Iranian Foreign Minister Says Iran Will Respond ‘Proportionately’ To Soleimani Assassination: “This is an act of aggression against Iran, and it amounts to an armed attack against Iran. But we will respond proportionately - not disproportionately. We are not lawless like President Trump.”'
+| Simple Consensus | Neeka Consensus |
+| ---- | ---- |
+|1. 'A US citizen, who once begged for President Trump's help, has died after more than six years without a fair trial in an Egyptian prison.'</br>2. 'Support for Trump’s Removal Grows'</br>3. 'AOC takes down Ted Cruz over coronavirus comment: 'I’m surprised you’re asking about chromosomes given you don’t believe in evolution''</br>4. 'Emotional Schiff Speech Goes Viral, Delighting the Left and Enraging the Right'</br>5. 'Trump walks out of press conference after altercation with female reporters'</br>6. 'Giuliani associate now willing to comply with Trump impeachment inquiry - lawyer'</br>7. 'Senate Fails Its Duty To Nation'</br>8. '65 percent of U.S. adults say Donald Trump was too slow to respond to COVID-19 outbreak: poll'</br>9. 'Brett Kavanaugh Speech Protested With Rape Whistles, Handmaid Costumes, Christine Blasey Ford Video — Several tactics were employed during protests at his first public speech since his confirmation hearings.'</br>10. 'Iranian Foreign Minister Says Iran Will Respond ‘Proportionately’ To Soleimani Assassination: “This is an act of aggression against Iran, and it amounts to an armed attack against Iran. But we will respond proportionately - not disproportionately. We are not lawless like President Trump.”'|1. 'Justin Trudeau brownface photo surfaces ahead of Canada election'</br>2. 'City hopes 'Baby Shark' song will drive homeless from park'</br>3. 'Prince Andrew Says He Doesn't Regret His 'Very Useful' Relationship With Jeffrey Epstein'</br>4. ''Star Wars': Mark Hamill To Get Star On Hollywood Walk Of Fame'</br>5. 'EU will remain top investor against climate change, in defiance of Donald Trump's policies - 'We, Europeans, must lead the free world against climate sceptics''</br>6. 'Jimmy Carter calls for return to publicly-financed elections'</br>7. '#PresidentCuomo trends as governor’s star status rises over coronavirus response'</br>8. 'Joel Osteen criticized for closing his Houston megachurch amid flooding'</br>9. 'France becomes first country in Europe to ban all five pesticides killing bees - France will take a radical step towards protecting its dwindling bee population on Saturday by becoming the first country in Europe to ban all five pesticides researchers believe are killing off the insects.'</br>10. 'McConnell won’t allow vote to bill to protect Mueller'|
+
 #### Sample B
 
-These are the titles of posts that are most-promoted and most-demoted by the Neeka algorithm over simple consensus out of a random sample of 500 posts involved in this test.
+These are the titles of posts whose ranking changed most between the simple-consensus algorithm and the Neeka algorithm. On the left are posts that the simple consensus algorithm favors the most over Neeka. On the right are the posts that Neeka favors the most over simple-consensus.
 
-These are the posts that are **most-promoted** by the Neeka algorithm over simple consensus:
-1. 'Chris Evans Invites Bullied Keaton Jones To ‘Avengers’ Premiere \| Deadline'
-2. 'Cervical cancer set to be eliminated from Australia in global first - Cervical cancer is set to become a rare disease in Australia within just two years and rendered so uncommon by 2028 it will be deemed eliminated as a public health problem for the first time anywhere in the world.'
-3. 'Trump claims no one told him not to hire Michael Flynn. Obama did.'
-4. 'Apple CEO becomes chairman of China university board'
-5. 'WWE are forced to deny nearly 200 wrestlers and crew 'were held “hostage” by Saudi Arabia as they tried to leave the country after Crown Jewel event in row over unpaid £390million bill''
-6. 'Underage girls for sale in Hyderabad: First as a bride, then a sex slave as part of 'contract marriage' racket in city - Firstpost'
-7. 'If Hunter Biden Is Fair Game, So Are Trump’s Kids'
-8. 'Football Fan Shouted F*** You Im Millwall and Took on Knife Wielding Terrorists with his Bare Hands'
-9. 'George Conway Says Foreign Leaders See Donald Trump as a 'Deranged Idiot''
-10. 'I am Democratic US Senate Candidate in Iowa, Kimberly Graham. AMA!'
+This "Sample B" sample is a subset of the "All Posts" and is composed of 500 randomly selected posts. We show this smaller sample to give a better idea of how the algorithm might run on a smaller subset of data (such as the posts submitted in a single day).
 
-These are the posts that are **most-demoted** by the Neeka algorithm over simple consensus:
-1. 'Washington state radio station won't air Trump briefings because of 'false or misleading information''
-2. 'Americans under the age of 30 support removing Trump from office by a nearly 3-to-1 ratio'
-3. ''There Is Genuine Panic': Fears of Global Financial Meltdown as Human Toll of Coronavirus Grows; President Donald Trump was described as "the worst person to be in charge in this moment" as coronavirus cases in the U.S. topped 500 over the weekend.'
-4. 'Andrew Napolitano Blasts Trump Allies: Bolton Was A 'Conservative Icon Until 2 Days Ago''
-5. 'AOC takes down Ted Cruz over coronavirus comment: 'I’m surprised you’re asking about chromosomes given you don’t believe in evolution''
-6. 'Mitch McConnell is aiding and abetting the spread of coronavirus'
-7. 'Trump disbanded NSC pandemic unit that experts had praised'
-8. 'Scientists paint Australia fires as red alert on climate change \| "We totally expected that as the climate warmed, fires in Australia would get worse. But the scale of this disaster is something I couldn’t have imagined, and it’s the same for a lot of people in Australia.”'
-9. 'Trump Should Be Tried for 'Crimes Against Humanity' Over Hydroxychloroquine Remarks, Says Ohio State Rep.'
-10. 'Yale psychiatrist urges Pelosi: Request 72-hour mental health hold on Trump after Iran attack'
+| Simple Consensus | Neeka Consensus |
+| ---- | ---- |
+|1. 'Washington state radio station won't air Trump briefings because of 'false or misleading information''</br>2. 'Americans under the age of 30 support removing Trump from office by a nearly 3-to-1 ratio'</br>3. ''There Is Genuine Panic': Fears of Global Financial Meltdown as Human Toll of Coronavirus Grows; President Donald Trump was described as "the worst person to be in charge in this moment" as coronavirus cases in the U.S. topped 500 over the weekend.'</br>4. 'Andrew Napolitano Blasts Trump Allies: Bolton Was A 'Conservative Icon Until 2 Days Ago''</br>5. 'AOC takes down Ted Cruz over coronavirus comment: 'I’m surprised you’re asking about chromosomes given you don’t believe in evolution''</br>6. 'Mitch McConnell is aiding and abetting the spread of coronavirus'</br>7. 'Trump disbanded NSC pandemic unit that experts had praised'</br>8. 'Scientists paint Australia fires as red alert on climate change \| "We totally expected that as the climate warmed, fires in Australia would get worse. But the scale of this disaster is something I couldn’t have imagined, and it’s the same for a lot of people in Australia.”'</br>9. 'Trump Should Be Tried for 'Crimes Against Humanity' Over Hydroxychloroquine Remarks, Says Ohio State Rep.'</br>10. 'Yale psychiatrist urges Pelosi: Request 72-hour mental health hold on Trump after Iran attack'|1. 'Chris Evans Invites Bullied Keaton Jones To ‘Avengers’ Premiere \| Deadline'</br>2. 'Cervical cancer set to be eliminated from Australia in global first - Cervical cancer is set to become a rare disease in Australia within just two years and rendered so uncommon by 2028 it will be deemed eliminated as a public health problem for the first time anywhere in the world.'</br>3. 'Trump claims no one told him not to hire Michael Flynn. Obama did.'</br>4. 'Apple CEO becomes chairman of China university board'</br>5. 'WWE are forced to deny nearly 200 wrestlers and crew 'were held “hostage” by Saudi Arabia as they tried to leave the country after Crown Jewel event in row over unpaid £390million bill''</br>6. 'Underage girls for sale in Hyderabad: First as a bride, then a sex slave as part of 'contract marriage' racket in city - Firstpost'</br>7. 'If Hunter Biden Is Fair Game, So Are Trump’s Kids'</br>8. 'Football Fan Shouted F*** You Im Millwall and Took on Knife Wielding Terrorists with his Bare Hands'</br>9. 'George Conway Says Foreign Leaders See Donald Trump as a 'Deranged Idiot''</br>10. 'I am Democratic US Senate Candidate in Iowa, Kimberly Graham. AMA!'|1. 'Justin Trudeau brownface photo surfaces ahead of Canada election'</br>2. 'City hopes 'Baby Shark' song will drive homeless from park'</br>3. 'Prince Andrew Says He Doesn't Regret His 'Very Useful' Relationship With Jeffrey Epstein'</br>4. ''Star Wars': Mark Hamill To Get Star On Hollywood Walk Of Fame'</br>5. 'EU will remain top investor against climate change, in defiance of Donald Trump's policies - 'We, Europeans, must lead the free world against climate sceptics''</br>6. 'Jimmy Carter calls for return to publicly-financed elections'</br>7. '#PresidentCuomo trends as governor’s star status rises over coronavirus response'</br>8. 'Joel Osteen criticized for closing his Houston megachurch amid flooding'</br>9. 'France becomes first country in Europe to ban all five pesticides killing bees - France will take a radical step towards protecting its dwindling bee population on Saturday by becoming the first country in Europe to ban all five pesticides researchers believe are killing off the insects.'</br>10. 'McConnell won’t allow vote to bill to protect Mueller'|
+
 #### Sample C
 
-These are the titles of posts that are most-promoted and most-demoted by the Neeka algorithm over simple consensus out of a random sample of 500 posts involved in this test.
+These are the titles of posts whose ranking changed most between the simple-consensus algorithm and the Neeka algorithm. On the left are posts that the simple consensus algorithm favors the most over Neeka. On the right are the posts that Neeka favors the most over simple-consensus.
 
-These are the posts that are **most-promoted** by the Neeka algorithm over simple consensus:
-1. 'New poll shows Joe Biden beating Donald Trump in general election'
-2. 'George Zimmerman sues Warren, Buttigieg for $265M, accuses them of attempting to garner black votes by defaming him'
-3. 'Actresses, CEOs arrested in nationwide college admissions cheating scam'
-4. 'If Hunter Biden Is Fair Game, So Are Trump’s Kids'
-5. 'Rand Paul, Whose Tax-Cut Vote Added $1 Trillion to the Deficit, Tells 9/11 Victims to Suck It'
-6. 'MUBARAK STEPS DOWN'
-7. 'France decrees new rooftops must be covered in plants or solar panels. All new buildings in commercial zones across the country must comply with new environmental legislation'
-8. 'The Post Office Is a National Treasure. We Can’t Let the Privatizers Destroy It.'
-9. 'Andrew Yang Says He's Considering Running For Mayor Of New York City'
-10. 'China's economic growth sinks to 26-year low'
+This "Sample A" sample is a subset of the "All Posts" and is composed of 500 randomly selected posts. We show this smaller sample to give a better idea of how the algorithm might run on a smaller subset of data (such as the posts submitted in a single day).
 
-These are the posts that are **most-demoted** by the Neeka algorithm over simple consensus:
-1. 'Trump's child separation policy "absolutely" violated international law says UN expert. "I'm deeply convinced that these are violations of international law."'
-2. 'John Kelly’s deepest shiv: People who rely on Fox News ‘are not informed citizens’'
-3. 'Brexit will cost the UK up to 30 times more than it will gain back from striking a Trump trade deal'
-4. 'Trump is just 67 votes away from being an ex-President and it's freaking him out'
-5. 'Trump 'Crime Family...Belong in Prison,' Says 'The Art of the Deal' Ghostwriter'
-6. 'Trump attacked for spending '1 in every 5 days' at a golf club in 2019. President famously told voters in 2016 he would be too busy ‘working for you’ to play.'
-7. 'Melania Trump Thinks Greta Thunberg Had POTUS Attack Coming \| Apparently speaking out against climate change means the 16 year-old should expect to be mocked by world leaders.'
-8. 'Sanders slams Trump pardons as part of 'broken and racist criminal justice system''
-9. 'While Bernie Sanders has always stood up for African Americans, Joe Biden has repeatedly let us down'
-10. 'Senate Republicans block plans to make elections more secure from foreign interference'
+| Simple Consensus | Neeka Consensus |
+| ---- | ---- |
+|1. 'Trump's child separation policy "absolutely" violated international law says UN expert. "I'm deeply convinced that these are violations of international law."'</br>2. 'John Kelly’s deepest shiv: People who rely on Fox News ‘are not informed citizens’'</br>3. 'Brexit will cost the UK up to 30 times more than it will gain back from striking a Trump trade deal'</br>4. 'Trump is just 67 votes away from being an ex-President and it's freaking him out'</br>5. 'Trump 'Crime Family...Belong in Prison,' Says 'The Art of the Deal' Ghostwriter'</br>6. 'Trump attacked for spending '1 in every 5 days' at a golf club in 2019. President famously told voters in 2016 he would be too busy ‘working for you’ to play.'</br>7. 'Melania Trump Thinks Greta Thunberg Had POTUS Attack Coming \| Apparently speaking out against climate change means the 16 year-old should expect to be mocked by world leaders.'</br>8. 'Sanders slams Trump pardons as part of 'broken and racist criminal justice system''</br>9. 'While Bernie Sanders has always stood up for African Americans, Joe Biden has repeatedly let us down'</br>10. 'Senate Republicans block plans to make elections more secure from foreign interference'|1. 'New poll shows Joe Biden beating Donald Trump in general election'</br>2. 'George Zimmerman sues Warren, Buttigieg for $265M, accuses them of attempting to garner black votes by defaming him'</br>3. 'Actresses, CEOs arrested in nationwide college admissions cheating scam'</br>4. 'If Hunter Biden Is Fair Game, So Are Trump’s Kids'</br>5. 'Rand Paul, Whose Tax-Cut Vote Added $1 Trillion to the Deficit, Tells 9/11 Victims to Suck It'</br>6. 'MUBARAK STEPS DOWN'</br>7. 'France decrees new rooftops must be covered in plants or solar panels. All new buildings in commercial zones across the country must comply with new environmental legislation'</br>8. 'The Post Office Is a National Treasure. We Can’t Let the Privatizers Destroy It.'</br>9. 'Andrew Yang Says He's Considering Running For Mayor Of New York City'</br>10. 'China's economic growth sinks to 26-year low'|
+
+#### Our Observations
+
+We see that posts that mention controversial political figures seem to be more highly promoted by the simple-consensus algorithm than by the Neeka algorithm.
+
+# The Future
+
+There are further tests to be run. In our previous tests we assume the existence of only two ideological groups, but in the real-world there are many. Future tests will involve more than two groups.
+
+The best test would be to run the Neeka algorithm on a website so the public can try it out themselves. The federated social networking platform [Lemmy](https://join-lemmy.org/) is open-source and may be an opportunity for us to implement Neeka in the real-world. If you would like to help with that, email us at [research@neeka.social](mailto:research@neeka.social).
+
+# The End
+
+Thanks for making it all the way to the end! Well, actually... hopefully this is only the beginning! In any case, this is very early work so we appreciate your attention. Personally I am optimistic about the idea of making the internet a better place, but it will require a lot of work! If you want to help out you can email me at [research@neeka.social](mailto:research@neeka.social). 
+
 
