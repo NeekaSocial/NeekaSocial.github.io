@@ -28,6 +28,8 @@ We also are able to calculate the overall bias toward a user group for each rank
 To further demonstrate this algorithm, we will show examples of the posts most-promoted and most-demoted by the Neeka algorithm as it runs on the real-world Reddit data.
 ## Simulation
 
+This test corresponds to the code [here](https://github.com/NeekaSocial/tests/blob/main/synth_vote_analysis.ipynb).
+
 In this simulation, we generate 18535 synthetic posts and 17004 synthetic users, with each user making an average of 59 posts. There is a strong imbalance between the two groups of users, with GROUP0 composing about 70% of the user base and GROUP1 composing only about 30%. Here are the results:
 
 ```
