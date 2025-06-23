@@ -9,12 +9,15 @@ This page will be used to document our research on the Neeka Consensus algorithm
 If you have any questions, critiques, or suggestions about our research, please feel free to email us at [research@neeka.social](mailto:research@neeka.social)
 
 Also if you want to support us, you can "buy me a coffee" at [coff.ee/neeka](https://coff.ee/neeka)
+
 # What does Neeka mean?
 
 The name Neeka came from an attempt to shorten "anechoic" as in [anechoic chamber](https://en.wikipedia.org/wiki/Anechoic_chamber) which is the opposite of an echo-chamber. We also intend for it to refer to the Jainism philosophy of [anekantavada](https://en.wikipedia.org/wiki/Anekantavada), which states that the truth is complex and therefore you should search for it in diverse places.
+
 # How Does the Neeka Algorithm Work?
 
 The Neeka algorithm traverses the graph formed by user interactions on a social network. While doing so, it creates a sort of "DNA" for each user that can be used to represent their interests, views, and stances. User DNA is used to calculate specific statistics about consensuses on content formed by user votes: the diversity of users who like or dislike a piece of content and the polarity between users who like and dislike that content. Consensuses are weighed in favor of ideologically diverse groups and in favor of content that is less divisive.  
+
 # Show me the tests!
 
 We will show two of our tests here. One uses a simulation to test the algorithm and the other uses real-world vote data from Reddit.
@@ -26,6 +29,7 @@ With the group affinity of each post, we can calculate the theoretical ideal ran
 We also are able to calculate the overall bias toward a user group for each ranking. We use this to calculate the neutrality of both simple consensuses and the Neeka algorithm.
 
 To further demonstrate this algorithm, we will show examples of the posts most-promoted and most-demoted by the Neeka algorithm as it runs on the real-world Reddit data.
+
 ## Simulation
 
 This test corresponds to the code [here](https://github.com/NeekaSocial/tests/blob/main/synth_vote_analysis.ipynb).
@@ -46,6 +50,7 @@ In this simulation, we generate 18535 synthetic posts and 17004 synthetic users,
 Here we see that the Neeka algorithm improves upon simple consensus significantly across all three statistics. We see a 12.61% improvement in the promotion of posts that the two groups agree upon and an 11.78% improvement in apolarity. We also see a 33.28% improvement in neutrality of the ranking, bringing Neeka's neutrality extremely close to the ideal for that statistic.
 
 Although we are only showing this one simulation as an example, these results are typical for simulations with the specified parameters. 
+
 ## Real-World Data
 
 For this test, we narrow the scope of our test to the large political subreddits [/r/politics](#), [/r/news](#), and [/r/worldnews](#). 
@@ -57,7 +62,7 @@ In this test, there are 18384 posts and 27647 users. HDBSCAN clustered 11491 of 
 Here are the results:
 
 ```
-	  simple_agreement: 29.86 %
+    simple_agreement: 29.86 %
     neeka_agreement: 52.67 %
 
     simple_apolar: 24.19 %
@@ -68,9 +73,11 @@ Here are the results:
 ```
 
 Here we see that the Neeka algorithm again significantly improved upon simple consensus  across all three statistics. The Neeka algorithms improved group agreement by 22.81%, apoloarity by 25.49%, and neutrality by 12.76%. 
+
 ### The Pudding
 
 "The proof is in the pudding". Below you can judge for yourself how well the Neeka algorithm achieves its goals. To be honest, it seems to be a mixed bag, but you may notice some consistencies in the type of content Neeka buries.
+
 #### All Posts
 
 These are the titles of posts that are most-promoted and most-demoted by the Neeka algorithm over simple consensus out of all 18384 posts involved in this test.
@@ -98,6 +105,7 @@ These are the posts that are **most-demoted** by the Neeka algorithm over simple
 8. 'Trump's child separation policy "absolutely" violated international law says UN expert. "I'm deeply convinced that these are violations of international law."'
 9. 'Trump Named ‘Worst President for Our Environment in History' by Nine Green Groups'
 10. 'Poll: 57% of voters say US political system works only for insiders with money & power'
+
 #### Sample A
 
 These are the titles of posts that are most-promoted and most-demoted by the Neeka algorithm over simple consensus out of a random sample of 500 posts involved in this test.
@@ -125,6 +133,7 @@ These are the posts that are **most-demoted** by the Neeka algorithm over simple
 8. '65 percent of U.S. adults say Donald Trump was too slow to respond to COVID-19 outbreak: poll'
 9. 'Brett Kavanaugh Speech Protested With Rape Whistles, Handmaid Costumes, Christine Blasey Ford Video — Several tactics were employed during protests at his first public speech since his confirmation hearings.'
 10. 'Iranian Foreign Minister Says Iran Will Respond ‘Proportionately’ To Soleimani Assassination: “This is an act of aggression against Iran, and it amounts to an armed attack against Iran. But we will respond proportionately - not disproportionately. We are not lawless like President Trump.”'
+
 #### Sample B
 
 These are the titles of posts that are most-promoted and most-demoted by the Neeka algorithm over simple consensus out of a random sample of 500 posts involved in this test.
@@ -152,6 +161,7 @@ These are the posts that are **most-demoted** by the Neeka algorithm over simple
 8. 'Scientists paint Australia fires as red alert on climate change \| "We totally expected that as the climate warmed, fires in Australia would get worse. But the scale of this disaster is something I couldn’t have imagined, and it’s the same for a lot of people in Australia.”'
 9. 'Trump Should Be Tried for 'Crimes Against Humanity' Over Hydroxychloroquine Remarks, Says Ohio State Rep.'
 10. 'Yale psychiatrist urges Pelosi: Request 72-hour mental health hold on Trump after Iran attack'
+
 #### Sample C
 
 These are the titles of posts that are most-promoted and most-demoted by the Neeka algorithm over simple consensus out of a random sample of 500 posts involved in this test.
