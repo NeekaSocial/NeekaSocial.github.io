@@ -102,7 +102,7 @@ Most Promoted by **Neeka Consensus** over simple-consensus (most demoted by simp
 Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
 1. "Greta Thunberg is Time's 2019 Person of the Year"
 2. "Trump Named ‘Worst President for Our Environment in History' by Nine Green Groups"
-3. "Greta Thunberg tells cheering crowd 'we will make sure we put world leaders against the wall' if they do not tackle global warming | 'The adults are behaving as if there is no tomorrow but there is a tomorrow, it is the tomorrow where our young people will live &amp; we have to fight for that tomorrow.""
+3. "Greta Thunberg tells cheering crowd 'we will make sure we put world leaders against the wall' if they do not tackle global warming \| 'The adults are behaving as if there is no tomorrow but there is a tomorrow, it is the tomorrow where our young people will live &amp; we have to fight for that tomorrow.""
 4. "Millennials support socialism because they want to make America great — but for everyone"
 5. "Greta Thunberg says she ‘needs a rest’ as she heads home to Sweden after year of global climate activism. Teen campaigner, this week named Time’s Person of the Year, is currently in Italy leading a ‘Fridays for Future’ demonstration"
 6. "Trump is just 67 votes away from being an ex-President and it's freaking him out"
@@ -152,7 +152,7 @@ Most Promoted by **Neeka Consensus** over simple-consensus (most demoted by simp
 Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
 1. "Greta Thunberg is Time's 2019 Person of the Year"
 2. "Greta Thunberg says she ‘needs a rest’ as she heads home to Sweden after year of global climate activism. Teen campaigner, this week named Time’s Person of the Year, is currently in Italy leading a ‘Fridays for Future’ demonstration"
-3. "Greta Thunberg tells cheering crowd 'we will make sure we put world leaders against the wall' if they do not tackle global warming | 'The adults are behaving as if there is no tomorrow but there is a tomorrow, it is the tomorrow where our young people will live &amp; we have to fight for that tomorrow.""
+3. "Greta Thunberg tells cheering crowd 'we will make sure we put world leaders against the wall' if they do not tackle global warming \| 'The adults are behaving as if there is no tomorrow but there is a tomorrow, it is the tomorrow where our young people will live &amp; we have to fight for that tomorrow.""
 4. "Millennials support socialism because they want to make America great — but for everyone"
 5. "Yale psychiatrist urges Pelosi: Request 72-hour mental health hold on Trump after Iran attack"
 6. "Trump is just 67 votes away from being an ex-President and it's freaking him out"
