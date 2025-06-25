@@ -213,7 +213,7 @@ Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
 
 ### Our Observations
 
-The statistics produced seem to support our major hypotheses. We see in all three tests that the Neeka algorithm significantly improves on each of the three statistics: agreement, apolarity, and neutrality. We also see that the Neeka algorithm also boost representation of the ideological minority in each test. 
+The statistics produced seem to support our major hypotheses. We see in all three tests that the Neeka algorithm significantly improves on each of the three statistics: agreement, apolarity, and neutrality. We also see that the Neeka algorithm boosts representation of the ideological minority in each test. 
 
 We see in the listing of post titles that the simple-consensus algorithm is more likely to promote posts that mention politically divisive figures than the Neeka algorithm. The titles promoted by simple-consensus seem to be a bit more politically inflamattory whereas the posts promoted by Neeka seem to be more matter-of-fact and seem to not touch on politically divisive issues as much.
 
