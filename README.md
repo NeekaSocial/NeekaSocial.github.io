@@ -211,7 +211,7 @@ Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
 9. "Wake up, Republicans. Your party stands for all the wrong things now."
 10. "Right-wing hawk attack tactics aren't working this time — and here's why: Republicans used their old Iraq tricks to quash critics of Trump's Iran adventure. But this time nobody's buying"
 
-#### Our Observations
+### Our Observations
 
 The statistics produced seem to support our major hypotheses. We see in all three tests that the Neeka algorithm significantly improves on each of the three statistics: agreement, apolarity, and neutrality. We also see that the Neeka algorithm also boost representation of the ideological minority in each test. 
 
