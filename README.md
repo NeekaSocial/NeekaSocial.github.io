@@ -109,7 +109,7 @@ Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
 4. "Skeptics Blast Trump's New Claim That Soleimani Targeted 4 US Embassies: "Either Fox News gets higher level briefings than Congress ... or there was no such imminent threat," charged Sen. Chris Murphy."
 5. "WHO official calls Trump comments on coronavirus response 'incoherent'"
 6. "Trump launches snide attack on Greta Thunberg after she beats him to Time Person of the Year"
-7. "Trump Flatly Admits He’d Leave Americans Stranded to Hold Coronavirus Numbers Static | The president is purposely downplaying the coronavirus for selfish reasons but is too stupid to keep that quiet"
+7. "Trump Flatly Admits He’d Leave Americans Stranded to Hold Coronavirus Numbers Static \| The president is purposely downplaying the coronavirus for selfish reasons but is too stupid to keep that quiet"
 8. "'He Is Planning to Rig the Impeachment Trial': McConnell Vows 'Total Coordination' With Trump on Senate Process: “The jury—Senate Republicans—are going to coordinate with the defendant—Donald Trump—on how exactly the kangaroo court is going to be run.""
 9. "Kim Jong Un Wants Trump To Win In 2020, Former White House Adviser Says: 'All The Bad Guys Want Trump To Win'"
 10. "'There need to be mass protests': Authoritarianism experts say time is running out for Americans to stop Trump"
@@ -152,10 +152,10 @@ Most Promoted by **Neeka Consensus** over simple-consensus (most demoted by simp
 4. "Spain: prosecutors claim attack not rape as victim ‘did not fight back’ - Six men accused of sexual abuse of 14-year-old girl in abandoned factory in Manresa"
 5. "Rapper Pop Smoke killed in home invasion"
 6. "Not a conspiracy anymore"
-7. "Feb. 11 Is 'The Day We Fight Back' Against NSA Surveillance | More than 5,300 web-based companies and other organizations, including Reddit, Imgur, Tumblr, Mozilla the Electronic Frontier Foundation and the ACLU, have joined forces to protest National Security Agency surveillance on Feb. 11."
+7. "Feb. 11 Is 'The Day We Fight Back' Against NSA Surveillance \| More than 5,300 web-based companies and other organizations, including Reddit, Imgur, Tumblr, Mozilla the Electronic Frontier Foundation and the ACLU, have joined forces to protest National Security Agency surveillance on Feb. 11."
 8. "Banksy says that most "Banksy" works are fake"
 9. "Iceland sentences 26 corrupt bankers to 74 years in prison"
-10. "Vinnie Paul Dead: Pantera Drummer Dies at 54 | Billboard"
+10. "Vinnie Paul Dead: Pantera Drummer Dies at 54 \| Billboard"
 
 Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
 1. "Experts say Trump firing of 3 officials including Sondland and Vindman is a ‘criminal’ offense"
@@ -210,7 +210,7 @@ Most Promoted by **Neeka Consensus** over simple-consensus (most demoted by simp
 8. "Prince Andrew Says He Doesn't Regret His 'Very Useful' Relationship With Jeffrey Epstein"
 9. "'Lying has become a norm': Hong Kong police falsely accused protesters of blocking ambulances, democrats say."
 10. "A science teacher from rural Kenya who donates most of his salary to help poorer students has been crowned the world’s best teacher and awarded a $1m prize, beating 10,000 nominations from 179 countries."
--
+
 Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
 1. "Millennials support socialism because they want to make America great — but for everyone"
 2. "Greta Thunberg says she ‘needs a rest’ as she heads home to Sweden after year of global climate activism. Teen campaigner, this week named Time’s Person of the Year, is currently in Italy leading a ‘Fridays for Future’ demonstration"
