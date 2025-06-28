@@ -65,155 +65,167 @@ We hypothesize that the agreement, apolarity, and neutrality statistics will be 
 
 In this test we enforce a minimum number of 4 votes per user and a minimum number of 4 votes per post. This results in a sample that contains 71048 posts and 17236 users.
 
-This corresponds to the test run in [this notebook](https://github.com/NeekaSocial/tests/blob/main/test_4_4_3.ipynb).
+This corresponds to the test run in [this notebook](https://github.com/NeekaSocial/tests/blob/main/test_4_4_19.ipynb).
 
 Here are the results:
 
 ```
-    simple_agreement: 52.24 %
-    neeka_agreement: 60.96 %
+    simple_agreement: 50.45 %
+    neeka_agreement: 65.77 %
+    change: 15.33 %
 
-    simple_apolar: 28.23 %
-    neeka_apolar: 36.53 %
+    simple_apolar: 33.88 %
+    neeka_apolar: 49.21 %
+    change: 15.33 %
 
-    simple_neutrality: 76.78 %
-    neeka_neutrality: 86.53 %
+    simple_neutrality: 70.66 %
+    neeka_neutrality: 91.46 %
+    change: 20.8 %
 
-    simple_group0_bias: 37.11 %
-    simple_group1_bias: 60.33 %
-    neeka_group0_bias: 46.13 %
-    neeka_group1_bias: 59.6 %
+    simple_group0_bias: 30.32 %
+    simple_group1_bias: 59.66 %
+    neeka_group0_bias: 46.31 %
+    neeka_group1_bias: 54.85 %
 ```
 
 Below are the titles of posts that saw the most change between the Neeka algorithm and simple-consensus.
 
 Most Promoted by **Neeka Consensus** over simple-consensus (most demoted by simple-consensus):
-1. "US school 'sorry' for foster care threat over lunch debt"
-2. "Four rockets hit Iraqi military base near Baghdad airport"
-3. "Nearly 175 Saudi military aviation students grounded in U.S. after base shooting"
-4. "Hungary Withdraws From European Singing Competition Because 'It's Too Gay'"
-5. "India to buy US$1 billion of US crude for the first time ever"
-6. "Students called a suicide hotline listed on their ID cards. It was sex hotline instead."
-7. "Man Shot Dead by UK Police Wanted Girlfriend to Behead Her Parents"
-8. "Trump signs executive order to support moon mining, tap asteroid resources"
-9. "A Russian military ammo depot that blew up earlier this week just exploded again"
-10. "Judge rules law enforcement can’t force suspects to unlock their iPhone with Face ID or Touch ID"
+1. "India to buy US$1 billion of US crude for the first time ever"
+2. "Michigan Dam Fails; Flooding in Kentucky and Ohio Also Forces Evacuations"
+3. "US school 'sorry' for foster care threat over lunch debt"
+4. "DEA announces intent to schedule kratom"
+5. "Four rockets hit Iraqi military base near Baghdad airport"
+6. "Hungary Withdraws From European Singing Competition Because 'It's Too Gay'"
+7. "Students called a suicide hotline listed on their ID cards. It was sex hotline instead."
+8. "Obama formally joins US into climate pact"
+9. "Nearly 175 Saudi military aviation students grounded in U.S. after base shooting"
+10. "Oliver Stone: Don't praise President Bush just because you hate Donald Trump"
 
 Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
-1. "Greta Thunberg is Time's 2019 Person of the Year"
-2. "Trump Named ‘Worst President for Our Environment in History' by Nine Green Groups"
-3. "Greta Thunberg tells cheering crowd 'we will make sure we put world leaders against the wall' if they do not tackle global warming \| 'The adults are behaving as if there is no tomorrow but there is a tomorrow, it is the tomorrow where our young people will live &amp; we have to fight for that tomorrow.""
-4. "Millennials support socialism because they want to make America great — but for everyone"
-5. "Greta Thunberg says she ‘needs a rest’ as she heads home to Sweden after year of global climate activism. Teen campaigner, this week named Time’s Person of the Year, is currently in Italy leading a ‘Fridays for Future’ demonstration"
-6. "Trump is just 67 votes away from being an ex-President and it's freaking him out"
-7. "Trump launches snide attack on Greta Thunberg after she beats him to Time Person of the Year"
-8. "Yale psychiatrist urges Pelosi: Request 72-hour mental health hold on Trump after Iran attack"
-9. "Republicans Are Talking 'Civil War' Because They Don't Have Any Defense for the President*"
-10. "Trump officials are bending over backwards to say he didn't threaten to commit a war crime after he repeatedly threatened to commit a war crime"
+1. "Experts say Trump firing of 3 officials including Sondland and Vindman is a ‘criminal’ offense"
+2. "Europeans fear relationship with America will only get worse under a Trump second term. “Eight years in political terms is an era, not an error. And it would undermine the reality of American democracy,” said French analyst François Heisbourg."
+3. "Trump Named ‘Worst President for Our Environment in History' by Nine Green Groups"
+4. "Skeptics Blast Trump's New Claim That Soleimani Targeted 4 US Embassies: "Either Fox News gets higher level briefings than Congress ... or there was no such imminent threat," charged Sen. Chris Murphy."
+5. "WHO official calls Trump comments on coronavirus response 'incoherent'"
+6. "Trump launches snide attack on Greta Thunberg after she beats him to Time Person of the Year"
+7. "Trump Flatly Admits He’d Leave Americans Stranded to Hold Coronavirus Numbers Static | The president is purposely downplaying the coronavirus for selfish reasons but is too stupid to keep that quiet"
+8. "'He Is Planning to Rig the Impeachment Trial': McConnell Vows 'Total Coordination' With Trump on Senate Process: “The jury—Senate Republicans—are going to coordinate with the defendant—Donald Trump—on how exactly the kangaroo court is going to be run.""
+9. "Kim Jong Un Wants Trump To Win In 2020, Former White House Adviser Says: 'All The Bad Guys Want Trump To Win'"
+10. "'There need to be mass protests': Authoritarianism experts say time is running out for Americans to stop Trump"
 
 ### Test 2:
 
 In this test we enforce a minimum number of 8 votes per user and a minimum number of 8 votes per post. This results in a sample that contains 35608 posts and 12656 users.
 
-This corresponds to the test run in [this notebook](https://github.com/NeekaSocial/tests/blob/main/test_8_8_3.ipynb).
+This corresponds to the test run in [this notebook](https://github.com/NeekaSocial/tests/blob/main/test_8_8_19.ipynb).
 
 Here are the results:
 
 ```
-    simple_agreement: 48.84 %
-    neeka_agreement: 60.44 %
+    simple_agreement: 46.21 %
+    neeka_agreement: 65.27 %
+    change: 19.06 %
 
-    simple_apolar: 35.02 %
-    neeka_apolar: 47.52 %
+    simple_apolar: 33.42 %
+    neeka_apolar: 54.0 %
+    change: 20.58 %
 
-    simple_neutrality: 68.79 %
-    neeka_neutrality: 80.62 %
+    simple_neutrality: 66.32 %
+    neeka_neutrality: 93.9 %
+    change: 27.58 %
 
-    simple_group0_bias: 26.89 %
-    simple_group1_bias: 58.1 %
-    neeka_group0_bias: 37.97 %
-    neeka_group1_bias: 57.35 %
+    simple_group0_bias: 24.84 %
+    simple_group1_bias: 58.52 %
+    neeka_group0_bias: 45.05 %
+    neeka_group1_bias: 51.15 %
 ```
+
+Below are the titles of posts that saw the most change between the Neeka algorithm and simple-consensus.
 
 
 
 Most Promoted by **Neeka Consensus** over simple-consensus (most demoted by simple-consensus):
-1. "Putin approves law targeting journalists as 'foreign agents'"
-2. "The Latest: US plan to allow prescription drugs from Canada"
-3. "Canada's Bianca Andreescu defeats Serena Williams to win U.S. Open"
-4. "'Fallacy' to say Amazon is the heritage of humankind, Brazil's Bolsonaro tells UN climate forum"
-5. "The Pentagon awarded Lockheed Martin $946 million on behalf of the Kingdom of Saudi Arabia for the defense giants’ THAAD missile defense system"
-6. "Virginia teacher sues school after being fired for not using transgender student's pronouns"
-7. "FBI: Nation-state actors have breached two US municipalities"
-8. "Mexico’s El Chapo sentenced to life in prison"
-9. "Apple and Samsung fined for deliberately slowing down phones"
-10. "Australian police find $200 million of meth hidden inside Sriracha bottles"
+1. "Apple and Samsung fined for deliberately slowing down phones"
+2. "FBI: Nation-state actors have breached two US municipalities"
+3. "A former neighbor of Joe Biden's accuser Tara Reade has come forward to corroborate her sexual assault account, saying Reade discussed the allegations in detail in the mid-1990s"
+4. "Spain: prosecutors claim attack not rape as victim ‘did not fight back’ - Six men accused of sexual abuse of 14-year-old girl in abandoned factory in Manresa"
+5. "Rapper Pop Smoke killed in home invasion"
+6. "Not a conspiracy anymore"
+7. "Feb. 11 Is 'The Day We Fight Back' Against NSA Surveillance | More than 5,300 web-based companies and other organizations, including Reddit, Imgur, Tumblr, Mozilla the Electronic Frontier Foundation and the ACLU, have joined forces to protest National Security Agency surveillance on Feb. 11."
+8. "Banksy says that most "Banksy" works are fake"
+9. "Iceland sentences 26 corrupt bankers to 74 years in prison"
+10. "Vinnie Paul Dead: Pantera Drummer Dies at 54 | Billboard"
 
 Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
-1. "Greta Thunberg is Time's 2019 Person of the Year"
-2. "Greta Thunberg says she ‘needs a rest’ as she heads home to Sweden after year of global climate activism. Teen campaigner, this week named Time’s Person of the Year, is currently in Italy leading a ‘Fridays for Future’ demonstration"
-3. "Greta Thunberg tells cheering crowd 'we will make sure we put world leaders against the wall' if they do not tackle global warming \| 'The adults are behaving as if there is no tomorrow but there is a tomorrow, it is the tomorrow where our young people will live &amp; we have to fight for that tomorrow.""
-4. "Millennials support socialism because they want to make America great — but for everyone"
-5. "Yale psychiatrist urges Pelosi: Request 72-hour mental health hold on Trump after Iran attack"
-6. "Trump is just 67 votes away from being an ex-President and it's freaking him out"
-7. "Trump sought to cheat to win re-election, Democrats charge at trial — "President Trump solicited foreign interference in our democratic elections, abusing the powers of his office to seek help from abroad to improve his re-election prospects at home," lawmaker Adam Schiff told a hushed chamber."
-8. "Teenage climate change activist Greta Thunberg said on Monday that talking to Trump at a UN summit on global warming would have been a waste of time since he would not have paid any attention."
-9. "Trump's plan to cage kids indefinitely while denying them vaccines is ethnic cleansing in plain sight"
-10. "Right-wing hawk attack tactics aren't working this time — and here's why: Republicans used their old Iraq tricks to quash critics of Trump's Iran adventure. But this time nobody's buying"
+1. "Experts say Trump firing of 3 officials including Sondland and Vindman is a ‘criminal’ offense"
+2. "Europeans fear relationship with America will only get worse under a Trump second term. “Eight years in political terms is an era, not an error. And it would undermine the reality of American democracy,” said French analyst François Heisbourg."
+3. "Trump Named ‘Worst President for Our Environment in History' by Nine Green Groups"
+4. "Trump launches snide attack on Greta Thunberg after she beats him to Time Person of the Year"
+5. "Skeptics Blast Trump's New Claim That Soleimani Targeted 4 US Embassies: "Either Fox News gets higher level briefings than Congress ... or there was no such imminent threat," charged Sen. Chris Murphy."
+6. "Kim Jong Un Wants Trump To Win In 2020, Former White House Adviser Says: 'All The Bad Guys Want Trump To Win'"
+7. "It Is Beginning to Look Like the U.S. Has a Corruption Problem, Not Ukraine"
+8. "Greta Thunberg is Time's 2019 Person of the Year"
+9. "No, Mr. President, healthcare workers aren’t stealing masks. You failed them."
+10. "'There need to be mass protests': Authoritarianism experts say time is running out for Americans to stop Trump"
+
 
 ### Test 3:
 
 In this test we enforce a minimum number of 16 votes per user and a minimum number of 16 votes per post. This results in a sample that contains 17500 posts and 7958 users.
 
-This corresponds to the test run in [this notebook](https://github.com/NeekaSocial/tests/blob/main/test_16_16_3.ipynb).
+This corresponds to the test run in [this notebook](https://github.com/NeekaSocial/tests/blob/main/test_16_16_19.ipynb).
 
 Here are the results:
 
 ```
-    simple_agreement: 49.66 %
-    neeka_agreement: 60.24 %
+    simple_agreement: 49.79 %
+    neeka_agreement: 61.8 %
+    change: 12.01 %
 
-    simple_apolar: 44.91 %
-    neeka_apolar: 56.44 %
+    simple_apolar: 45.86 %
+    neeka_apolar: 58.98 %
+    change: 13.11 %
 
-    simple_neutrality: 77.96 %
-    neeka_neutrality: 85.93 %
+    simple_neutrality: 79.41 %
+    neeka_neutrality: 90.19 %
+    change: 10.78 %
 
-    simple_group0_bias: 27.72 %
-    simple_group1_bias: 49.75 %
-    neeka_group0_bias: 36.44 %
-    neeka_group1_bias: 50.52 %
+    simple_group0_bias: 28.75 %
+    simple_group1_bias: 49.34 %
+    neeka_group0_bias: 39.09 %
+    neeka_group1_bias: 48.9 %
 ```
 
 Below are the titles of posts that saw the most change between the Neeka algorithm and simple-consensus.
 
 Most Promoted by **Neeka Consensus** over simple-consensus (most demoted by simple-consensus):
-1. "China will not change its position that Taiwan belongs to it and the world will only ever recognize that there is “one China”, Beijing said on Sunday after President Tsai Ing-wen won re-election and said she would not submit to China’s threats."
-2. "Apple CEO becomes chairman of China university board"
-3. "Silicon Valley giants accused of avoiding $100 billion in taxes"
-4. "Pakistani professor sentenced to death for blasphemy"
-5. "Jail video of Jeffrey Epstein’s first suicide attempt was deleted, prosecutors reveal"
-6. "USA Powerlifting bans all trans women from competing as women"
-7. "Crystal Geyser accidentally emailed the Chronicle its strategy to put a bottling plant in Randle, WA including an astroturf PR campaign and suing opposed neighbors "get them to the table." The company is now threatening to sue the paper for publishing."
-8. "Fallout from Russia's mysterious missile disaster suggests a nuclear reactor blew up"
-9. "France declares first two confirmed cases of coronavirus"
-10. "In an angry rant on social media, Brazilian President Jair Bolsonaro denied his connection to the murder of councilwoman and human rights activist Marielle Franco in Rio de Janeiro last year and threatened to cancel the license of the television network that aired the allegations."
-
+1. "USA Powerlifting bans all trans women from competing as women"
+2. "China will not change its position that Taiwan belongs to it and the world will only ever recognize that there is “one China”, Beijing said on Sunday after President Tsai Ing-wen won re-election and said she would not submit to China’s threats."
+3. "Apple CEO becomes chairman of China university board"
+4. "Doctor treating Paris coronavirus patients says virus ‘less serious’ than SARS"
+5. "Fallout from Russia's mysterious missile disaster suggests a nuclear reactor blew up"
+6. "Huge Hong Kong protest against extradition bill"
+7. "Verizon throttled 'unlimited' data of Calif. fire department during wildfire"
+8. "Prince Andrew Says He Doesn't Regret His 'Very Useful' Relationship With Jeffrey Epstein"
+9. "'Lying has become a norm': Hong Kong police falsely accused protesters of blocking ambulances, democrats say."
+10. "A science teacher from rural Kenya who donates most of his salary to help poorer students has been crowned the world’s best teacher and awarded a $1m prize, beating 10,000 nominations from 179 countries."
+-
 Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
 1. "Millennials support socialism because they want to make America great — but for everyone"
-2. "Trump's plan to cage kids indefinitely while denying them vaccines is ethnic cleansing in plain sight"
-3. "The U.S. President Was Credibly Accused of Rape—But It Didn't Make Front-Page News"
-4. "Teenage climate change activist Greta Thunberg said on Monday that talking to Trump at a UN summit on global warming would have been a waste of time since he would not have paid any attention."
-5. "Churchill's grandson slams Trump for skipping cemetery visit because of weather: "They died with their face to the foe and that pathetic inadequate @realDonaldTrump couldn’t even defy the weather to pay his respects to The Fallen," Soames tweeted"
-6. "Reddit ‘Quarantines’ Pro-Trump Forum Over Anti-Police Threats"
-7. "Cohen's lawyer says he's completely flipped and will give evidence that Trump colluded with Russia"
-8. "Pro-Trump Message Board “Quarantined” By Reddit Following Violent Threats"
-9. "Wake up, Republicans. Your party stands for all the wrong things now."
-10. "Right-wing hawk attack tactics aren't working this time — and here's why: Republicans used their old Iraq tricks to quash critics of Trump's Iran adventure. But this time nobody's buying"
+2. "Greta Thunberg says she ‘needs a rest’ as she heads home to Sweden after year of global climate activism. Teen campaigner, this week named Time’s Person of the Year, is currently in Italy leading a ‘Fridays for Future’ demonstration"
+3. "Greta Thunberg tells cheering crowd 'we will make sure we put world leaders against the wall' if they do not tackle global warming | 'The adults are behaving as if there is no tomorrow but there is a tomorrow, it is the tomorrow where our young people will live &amp; we have to fight for that tomorrow.""
+4. "Trump's plan to cage kids indefinitely while denying them vaccines is ethnic cleansing in plain sight"
+5. "The U.S. President Was Credibly Accused of Rape—But It Didn't Make Front-Page News"
+6. "Wake up, Republicans. Your party stands for all the wrong things now."
+7. "Former Republican says "gun worship" has "gotten worse" under Trump as Conservatives struggle to redefine patriotism"
+8. "'The Door Is Open, Come On In,' Sanders Says to Buttigieg and Klobuchar Supporters as Centrists Line Up Behind Biden; Sanders said the former candidates' supporters "understand that we have got to move toward a government which believes in justice, not greed.""
+9. "Trump revealed highly classified information to Russian foreign minister and ambassador."
+10. "Teenage climate change activist Greta Thunberg said on Monday that talking to Trump at a UN summit on global warming would have been a waste of time since he would not have paid any attention."
 
 ### Our Observations
 
-The statistics produced seem to support our major hypotheses. We see in all three tests that the Neeka algorithm significantly improves on each of the three statistics: agreement, apolarity, and neutrality. We also see that the Neeka algorithm boosts representation of the ideological minority in each test. 
+The statistics produced seem to support our major hypotheses. We see in all three tests that the Neeka algorithm significantly improves on each of the three statistics: agreement, apolarity, and neutrality. We also see that the Neeka algorithm boosts representation of the ideological minority in each test. The Neeka algorithm does not boost representation of the idealogical minority beyond the majority.
 
 We see in the listing of post titles that the simple-consensus algorithm is more likely to promote posts that mention politically divisive figures than the Neeka algorithm. The titles promoted by simple-consensus seem to be a bit more politically inflamattory whereas the posts promoted by Neeka seem to be more matter-of-fact and seem to not touch on politically divisive issues as much.
 
