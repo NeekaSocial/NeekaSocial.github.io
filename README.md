@@ -214,7 +214,7 @@ Most Promoted by **Neeka Consensus** over simple-consensus (most demoted by simp
 Most Promoted by **simple-consensus** over Neeka (most demoted by Neeka):
 1. "Millennials support socialism because they want to make America great — but for everyone"
 2. "Greta Thunberg says she ‘needs a rest’ as she heads home to Sweden after year of global climate activism. Teen campaigner, this week named Time’s Person of the Year, is currently in Italy leading a ‘Fridays for Future’ demonstration"
-3. "Greta Thunberg tells cheering crowd 'we will make sure we put world leaders against the wall' if they do not tackle global warming | 'The adults are behaving as if there is no tomorrow but there is a tomorrow, it is the tomorrow where our young people will live &amp; we have to fight for that tomorrow.""
+3. "Greta Thunberg tells cheering crowd 'we will make sure we put world leaders against the wall' if they do not tackle global warming \| 'The adults are behaving as if there is no tomorrow but there is a tomorrow, it is the tomorrow where our young people will live &amp; we have to fight for that tomorrow.""
 4. "Trump's plan to cage kids indefinitely while denying them vaccines is ethnic cleansing in plain sight"
 5. "The U.S. President Was Credibly Accused of Rape—But It Didn't Make Front-Page News"
 6. "Wake up, Republicans. Your party stands for all the wrong things now."
